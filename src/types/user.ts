@@ -1,12 +1,12 @@
 export type User = {
-    id: string;
-    name: string;
+  id: string;
+  name: string;
 };
 
 export type UsersQueryResponse = {
-    users: User[];
-}
+  users: User[];
+};
 
 export type UsersQueryVariables = {
-    ids: string[];
-}
+  ids: string[];
+};
